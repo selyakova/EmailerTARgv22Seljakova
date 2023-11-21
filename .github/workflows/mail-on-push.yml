@@ -14,7 +14,7 @@ jobs:
           password: ${{secrets.MAIL_PASSWORD}}
           subject: TERE hommikust koigile
           body: Email test from ${{github.repository}}. which is owned by ${{github.event.pusher.name}}.
-          to: nasty.selyakova@gmail.com
+          to: jyri.vaitmaa@tthk.ee, nasty.selyakova@gmail.com
           from: Github Actions
  
   Explore-GitHub-Actions:
